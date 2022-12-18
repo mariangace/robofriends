@@ -3,8 +3,8 @@ import React from "react";
 const Scroll = (props) => {
   return (
     <div
-      styles={{
-        overflowY: "scroll",
+      style={{
+        overflowY: "auto",
         boder: "1px solid black",
         height: "500px",
       }}
